@@ -10,7 +10,7 @@ export class ParentComponent implements OnInit, AfterViewInit {
   @ViewChild(ChildComponent) viewChildMessage
 
 
-  parentMessage ="You are not sharing data using parent component"
+  parentMessage ="You are sharing data using parent to child component. Using @Input"
   viewchildFromParent: string
   outputParentMessage ="Yes we did it!!!!!"
   constructor() { }

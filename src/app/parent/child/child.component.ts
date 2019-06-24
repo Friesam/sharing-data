@@ -14,5 +14,5 @@ export class ChildComponent implements OnInit {
   ngOnInit() {
   }
 
-viewchildFromChild : "I am the vine"
+viewchildFromChild = "I am the vine"
 }
